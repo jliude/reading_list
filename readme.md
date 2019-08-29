@@ -122,5 +122,3 @@ for High-Dimensional Structured Data](http://proceedings.mlr.press/v97/aydore19a
 
 ## nips 18
 - [Moonshine: Distilling with Cheap Convolutions](https://papers.nips.cc/paper/7553-moonshine-distilling-with-cheap-convolutions.pdf)
-# reading_list
-# reading_list

@@ -86,6 +86,43 @@ for High-Dimensional Structured Data](http://proceedings.mlr.press/v97/aydore19a
   - reuse old gradients
   - an instructive paper
 
+## nips 17
+- [Can Decentralized Algorithms Outperform Centralized Algorithms? A Case Study for Decentralized Parallel Stochastic Gradient Descent](http://papers.nips.cc/paper/by-source-2017-2767)
+  - shows that decentralized algs can be better than centralized algs in some cases
+
+- [First-Order Adaptive Sample Size Methods to Reduce Complexity of Empirical Risk Minimization](http://papers.nips.cc/paper/by-source-2017-1250)
+
+- [Smooth Primal-Dual Coordinate Descent Algorithms for Nonsmooth Convex Optimization](http://papers.nips.cc/paper/7167-smooth-primal-dual-coordinate-descent-algorithms-for-nonsmooth-convex-optimization)
+
+- [Limitations on Variance-Reduction and Acceleration Schemes for Finite Sums Optimization](https://nips.cc/Conferences/2017/Schedule?showEvent=9137)
+
+- [QSGD: Communication-Efficient SGD via Gradient Quantization and Encoding](https://nips.cc/Conferences/2017/Schedule?showEvent=8961)
+
+## iclr 19
+- [On the Convergence of A Class of Adam-Type Algorithms for Non-Convex Optimization ](https://openreview.net/forum?id=H1x-x309tm)
+
+- [DEEP FRANK-WOLFE FOR NEURAL NETWORK OPTIMIZATION](https://openreview.net/pdf?id=SyVU6s05K7)
+
+- [Riemannian Adaptive Optimization Methods](https://openreview.net/pdf?id=SyVU6s05K7)
+
+- [Universal Stagewise Learning for Non-Convex Problems with Convergence on Averaged Solutions](https://openreview.net/pdf?id=Syx5V2CcFm)
+  - add an $l_2$ norm to accelerate the convergence rate of opt algs.
+  - cons: the assumption that the opt object is weakly convex is so limited.
+
+## iclr 18
+- [On the Convergence of Adam and Beyond](https://openreview.net/forum?id=ryQu7f-RZ)
+  - best paper
+
+- [Neumann Optimizer: A Practical Optimization Algorithm for Deep Neural Networks](https://openreview.net/forum?id=rkLyJl-0-)
+
+## iclr 17
+- [SGDR: Stochastic Gradient Descent with Warm Restarts](https://openreview.net/forum?id=Skq89Scxx)
+
+- [Improving Stochastic Gradient Descent with Feedback](https://openreview.net/pdf?id=r1WUqIceg)
+
+- [Entropy-SGD: Biasing Gradient Descent Into Wide Valleys](https://openreview.net/forum?id=B1YfAfcgl)
+
+
 # Compression and Acceleration of DNN
 
 ## icml 19
@@ -122,3 +159,43 @@ for High-Dimensional Structured Data](http://proceedings.mlr.press/v97/aydore19a
 
 ## nips 18
 - [Moonshine: Distilling with Cheap Convolutions](https://papers.nips.cc/paper/7553-moonshine-distilling-with-cheap-convolutions.pdf)
+
+## nips 17
+- [Learning Efficient Object Detection Models with Knowledge Distillation](https://nips.cc/Conferences/2017/Schedule?showEvent=8869)
+
+- [Soft-to-Hard Vector Quantization for End-to-End Learning Compressible Representations](https://nips.cc/Conferences/2017/Schedule?showEvent=8907)
+
+- [Compression-aware Training of Deep Networks](http://papers.nips.cc/paper/6687-compression-aware-training-of-deep-networks.pdf)
+
+## iclr 19
+- [PROXQUANT: QUANTIZED NEURAL NETWORKS VIA
+PROXIMAL OPERATORS](https://openreview.net/pdf?id=HyzMyhCcK7)
+    - add a particular reg term to induce quantized effect.
+    - the design of the reg term is novel.
+
+- [Energy-Constrained Compression for Deep Neural Networks via Weighted Sparse Projection and Layer Input Masking](https://openreview.net/forum?id=BylBr3C9K7)
+  - considers the case where energy is constrained.
+
+- [Learnable Embedding Space for Efficient Neural Architecture Compression](https://openreview.net/forum?id=S1xLN3C9YX)
+
+- [INTEGER NETWORKS FOR DATA COMPRESSION
+WITH LATENT-VARIABLE MODELS](https://openreview.net/pdf?id=S1zz2i0cY7)
+
+## iclr 18
+- [Model compression via distillation and quantization](https://openreview.net/forum?id=S1XolQbRW)
+
+- [Loss-aware Weight Quantization of Deep Networks](https://openreview.net/forum?id=BkrSv0lA-)
+
+- [Adaptive Quantization of Neural Networks](https://openreview.net/pdf?id=SyOK1Sg0W)
+
+- [Apprentice: Using Knowledge Distillation Techniques To Improve Low-Precision Network Accuracy ](https://openreview.net/forum?id=B1ae1lZRb)
+  - low-precision net is regarded as a student net
+
+## iclr 17
+- [Trained Ternary Quantization ](https://openreview.net/forum?id=S1_pAu9xl)
+
+- [Sigma Delta Quantized Networks](https://openreview.net/forum?id=S1_pAu9xl)
+
+- [Incremental Network Quantization: Towards Lossless CNNs with Low-precision Weights](https://openreview.net/forum?id=HyQJ-mclg)
+
+

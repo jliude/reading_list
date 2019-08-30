@@ -174,6 +174,8 @@ PROXIMAL OPERATORS](https://openreview.net/pdf?id=HyzMyhCcK7)
     - add a particular reg term to induce quantized effect.
     - the design of the reg term is novel.
 
+- [Dynamic Channel Pruning: Feature Boosting and Suppression ](https://openreview.net/forum?id=BJxh2j0qYm)
+
 - [Energy-Constrained Compression for Deep Neural Networks via Weighted Sparse Projection and Layer Input Masking](https://openreview.net/forum?id=BylBr3C9K7)
   - considers the case where energy is constrained.
 

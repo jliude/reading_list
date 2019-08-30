@@ -122,6 +122,7 @@ for High-Dimensional Structured Data](http://proceedings.mlr.press/v97/aydore19a
 
 - [Entropy-SGD: Biasing Gradient Descent Into Wide Valleys](https://openreview.net/forum?id=B1YfAfcgl)
 
+---
 
 # Compression and Acceleration of DNN
 

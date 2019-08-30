@@ -185,6 +185,9 @@ PROXIMAL OPERATORS](https://openreview.net/pdf?id=HyzMyhCcK7)
 WITH LATENT-VARIABLE MODELS](https://openreview.net/pdf?id=S1zz2i0cY7)
 
 ## iclr 18
+
+- [FIDELITY-WEIGHTED LEARNING](https://openreview.net/pdf?id=B1X0mzZCW)
+  
 - [Model compression via distillation and quantization](https://openreview.net/forum?id=S1XolQbRW)
 
 - [Loss-aware Weight Quantization of Deep Networks](https://openreview.net/forum?id=BkrSv0lA-)
